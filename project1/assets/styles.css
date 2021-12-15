@@ -1,0 +1,273 @@
+h1 {
+    font-family: "Optima", "sans-serif";
+    font-size: 50px;
+    text-align: center;
+    color: blue
+}
+
+body {
+    background-image: url("media/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.word_1 {
+    color: red
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+.responsiveimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.responsiveimage1 {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    
+}
+.responsiveimage2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+.responsiveimage3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.responsiveimage4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+}
+
+.responsiveimage5 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.responsiveimage6 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.responsiveimage7 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.responsiveimage8 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+}
+
+h3 {
+    font-family: "Optima", "sans-serif";
+    font-size: 27px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color:black;
+}
+
+p {
+    font-family: 'Contax Sans', sans-serif;
+    line-height: 1.625;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+#style3 {
+    font-family: 'Contax Sans', sans-serif;
+    line-height: 1.625;
+    color:black;
+    background-color: blue;
+    text-align: center;
+}
+
+#header{
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.links {
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 3px;
+    border: 2px solid whitesmoke;
+}
+
+#details {
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    background-color:rgba(137, 196, 244, 0.5);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#location {
+    text-align: center;
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(224, 130, 131, 0.5);
+    margin-left: 150px;
+    margin-right: 150px;
+ 
+}
+
+#menu {
+    border: 2px solid whitesmoke;
+    font-family: 'Contax Sans', sans-serif;
+    background-color: rgba(213, 184, 255, 0.5);
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+
+#appetizers {
+    
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+    background-color: rgba(255,255,255, 0.8);
+  
+}
+
+#sets {
+  
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+    background-color: rgba(255,255,255, 0.8);
+   
+    
+}
+
+#momo {
+ 
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#rice-noodles {
+
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 65px;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#contact {
+    padding: 3px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(123, 239, 178, 0.5);
+    margin-left: 150px;
+    margin-right: 150px;
+  
+}
+
+
+
+span {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#subtext1 {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#subtext2 {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#subtext3 {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.container {
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .sidenav {
+        padding-top: 15px;
+        width: 20%;
+    }
+
+    .sidenav a {font-size: 15px;}
+  }
+
+  @media screen and (max-width: 800px) {
+    .container {
+        width: 140%;
+        margin-left: -40px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .responsiveimage {
+        height: 10em
+    }
+  }
