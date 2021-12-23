@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+p {
+    font-size: 20px;
+  }
+
+ul li{
+    font-size:20px;
+   }
+
+ol li{
+    font-size:20px;
+}
+
+  a:link {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size:20px;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size:20px;
+  }
+
+.header {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid white;
+    font-size:20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.intro {
+    background-color:gray;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+}
+
+.parent {
+    display: flex;
+  }
+
+.bio {
+    background-color: tomato;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 300px;
+    width: 100%;
+}
+
+.classes {
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 300px;
+    width: 100%;
+}
+
+.parent_2 {
+    display: flex;
+}
+
+.exercises {
+    background-color: steelblue;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 300px;
+    width: 100%;
+}
+
+.projects {
+    background-color: lightskyblue;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 300px;
+    width: 100%;
+}
+
+.parent_3 {
+    display: flex;
+}
+
+.broken_link{
+    background-color: limegreen;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 150px;
+    width: 100%;
+}
+
+.contact{
+    background-color: lightgreen; 
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    height: 150px;
+    width: 100%;
+}
+
+.first-media-query {
+  color:red
+}
+
+
+@media only screen and (max-width: 768px) {
+    .first-media-query {
+      color: blue
+    }
+}
+
+
+
